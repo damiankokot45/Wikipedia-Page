@@ -11,15 +11,27 @@ body * {
 header{
     display: flex;
     flex-basis: 100%;
+    background: rgb(230, 230, 230);
+    border: 1px solid rgb(230, 230, 230);
+    font-size: 2em;
+    text-align: right;
+    align-items: center;
+    padding-left: 20%;
 }
 header>h1{
     display: flex;
     flex-basis: 20%;
 }
 
-nav{
+header>nav{
     display: flex;
     flex-basis: 80%;
+    
+}
+
+header>nav>ul{
+    list-style: none;
+    flex-basis: 33.33%;
 }
 
 main{
