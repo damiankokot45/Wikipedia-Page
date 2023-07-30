@@ -1,49 +1,45 @@
-body *{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 0;
-    margin: auto;
+body * {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 0;
+  margin: auto;
 }
 
 #container {
-    display: flex;
-    padding: 0;
-    margin: auto;
-   
+  display: flex;
+  padding: 0;
+  margin: auto;
 }
 
-.header{
-  padding: 0.5cm;
+.header {
+  padding: 0.1cm;
   display: flex;
   flex-basis: 10%;
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-
+  padding-bottom: 15cm;
 }
 
-header>ul{
-    list-style: none;
+header > ul {
+  list-style: none;
 }
-header>ul>li>a{
-    text-decoration: none;
-    
-    
+header > ul > li > a {
+  text-decoration: none;
 }
 
 .main {
-    padding: 1cm;
-    display: flex;
-    flex-basis: 90%;
+  padding: 1cm;
+  display: flex;
+  flex-basis: 90%;
 }
 
-main>article>p{
-    padding-bottom: 0.2cm;
-    padding-top: 0.2cm;
+main > article > p {
+  padding-bottom: 0.2cm;
+  padding-top: 0.2cm;
 }
 
-main>article>ul>li{
-    padding-bottom: 0.2cm;
-    padding-top: 0.2cm;
-
+main > article > ul > li {
+  padding-bottom: 0.2cm;
+  padding-top: 0.2cm;
 }
